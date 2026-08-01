@@ -1,7 +1,24 @@
 aid: relevize
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/relevize.png
 name: Relevize
-description: Relevize is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Relevize is an AI-driven partner payments and channel marketing platform that helps
+  B2B companies run Market Development Funds (MDF), SPIFs, and partner incentive programs. It combines
+  virtual and physical expense cards (Magic Cards) with spending controls, AI-powered claims and receipt
+  processing that cuts submission time, automated purchase orders and vendor invoicing, and a compliance
+  engine that validates proof of execution. A companion DemandGen product runs partner-led demand
+  generation campaigns. Customers include Apptio, Atlassian, Chili Piper, New Relic, and WatchGuard.
+  Added to the API Evangelist network as a portfolio company of Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/relevize/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Partner Marketing
+- Channel Marketing
+- Market Development Funds
+- MDF
+- Partner Incentives
+- Expense Management
+- Payments
+- Demand Generation
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.relevize.com/
+- type: Login
+  url: https://relevize.com/spa/login
+- type: Support
+  url: https://help.relevize.com/en/
+- type: Blog
+  url: https://www.relevize.com/blog
+- type: TermsOfService
+  url: https://www.relevize.com/terms
+- type: PrivacyPolicy
+  url: https://www.relevize.com/privacy-notice
+- type: TrustCenter
+  url: https://trust.relevize.com
+- type: DomainSecurity
+  url: security/relevize-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
